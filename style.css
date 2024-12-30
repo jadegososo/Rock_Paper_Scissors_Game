@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+body{
+    background-color: purple;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+div{
+    border-radius: 5px;
+}
+
+.container{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    width: 70vw;
+    background-color: gray;
+    background-color: black;
+}
+
+.scores{
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    width: 100%;
+    justify-content: space-around;
+    color: white;
+    gap: 20px;
+}
+
+.playerScore, .tries{
+    width: 100%;
+    text-align: center;
+}
+
+.scores p{
+    color: purple;
+    background-color: white;
+    font-weight: 900;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.status{
+    border: 1px solid black;
+    width: 100%;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    font-size: 40px;
+    font-weight: 900;
+    color: purple;
+}
+
+.choices{
+    display: flex;
+    gap: 20px;
+    display: none;
+}
+
+i{
+    color: white;
+    background-color: purple;
+    border-radius: 100%;
+    padding: 20px;
+    cursor: pointer;
+}
+
+button{
+    background-color: purple;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    width: 70%;
+    cursor: pointer;
+}
+
+.quitBtn{
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
